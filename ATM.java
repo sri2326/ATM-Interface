@@ -86,7 +86,7 @@ public class ATM {
                 atm.selectOption(option);
             } else {
                 System.out.println("Invalid input. Please enter a number.");
-                sc.next(); // Clear invalid input
+                sc.next();
             }
         }
     }
